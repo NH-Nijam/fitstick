@@ -3,7 +3,7 @@ import Header from '../Header';
 
 const Layout = ({children}) => {
     return (
-        <div className='container bg-[#010101] text-white'>
+        <div className=' bg-[#010101] text-white max-w-[1920px]'>
             <Header/>
             {children}
         </div>
