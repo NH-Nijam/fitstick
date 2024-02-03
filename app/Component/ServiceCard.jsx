@@ -2,18 +2,19 @@
 import Image from 'next/image';
 import React from 'react';
 import serviceCardImg from '../../public/images/Rectangle.png'
-import dot from '../../public/images/3dot.png'
+import dot from '../../public/images/3dotred.png'
 const ServiceCard = () => {
     return (
         <div className='w-full border relative'>
-            <Image src={serviceCardImg} width={500} height={500} alt='' className='w-full h-full absolute' />
-            <div className='mt-12 mb-5 relative'>
-                <h4 className='text-lg text-[#ff4e25] font-bold flex gap-2 items-center uppercase'><Image className=' w-4 h-3' src={dot} width={500} height={500} alt='dot' /><span>power lifting</span></h4>
-                <p>I have been hiring people in this space for a number of years and I have </p>
-                <div>
-                    <div className='w-[14px] h-[14px] rounded-full'>
-
-                    </div>
+            <Image src={serviceCardImg} width={500} height={500} alt='this is a service image' className='w-full h-full 
+            absolute' />
+            <div className='w-full h-full absolute bg-black/80'></div>
+            <div className='mt-12 mb-5 relative px-8 '>
+                <h4 className='text-lg  font-bold flex gap-2 items-center uppercase'><Image className=' w-4 h-3' src={dot} width={500} height={500} alt='dot' /><span>power lifting</span></h4>
+                <p className='mt-5 mb-8 text-base text-gray-400'>I have been hiring people in this space for a number of years and I have </p>
+                <div className='flex items-center gap-3 group w-fit'>
+                    <div className='w-[14px] h-[14px] group-hover:w-[30px] group-hover:h-[2px] duration-500  rounded-full bg-[#ff4e25]'></div>
+                    <h3 className='text-lg font-bold group-hover:text-[#ff4e25]'>Read More</h3> 
                 </div>
             </div>
         </div>

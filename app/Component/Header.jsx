@@ -53,9 +53,11 @@ const Header = () => {
             placement={"left"}
             onClose={onClose}
             open={open}
-            className="!bg-gray-900"
+            className="!bg-gray-900 "
           >
-            <IoMdClose onClick={onClose} className="text-2xl text-white " />
+            <div className="w-full  flex justify-end">
+              <IoMdClose onClick={onClose} className="text-2xl text-white " />
+            </div>
             <div className="text-white mt-10 flex flex-col text-xl  gap-8">
               <Link onClick={onClose} href="#" className="flex items-center gap-2"><IoMdHome /> Home +</Link>
               <Link onClick={onClose} href="#" className="flex items-center gap-2"><MdOutlineDashboardCustomize /> About +</Link>

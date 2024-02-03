@@ -3,6 +3,7 @@ import Herosection from './Component/Herosection';
 import About from './Component/About';
 import Patnars from './Component/Partners';
 import Services from './Component/Services';
+import Calculate from './Component/Calculate';
 
 
 const HomePage = () => {
@@ -12,6 +13,7 @@ const HomePage = () => {
         <About/>
         <Patnars/>
         <Services/>
+        <Calculate/>
     </div>
   );
 };
