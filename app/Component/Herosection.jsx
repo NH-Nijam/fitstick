@@ -5,7 +5,7 @@ import star from '../../public/images/bgstart.png'
 
 const Herosection = () => {
     return (
-        <div className={`w-full lg:h-screen  bg-[url('/images/bg.png')] bg-cover bg-no-repeat relative z-0 overflow-hidden `} >
+        <div className={`w-full lg:h-screen  bg-[url('/images/herobg.png')] bg-cover bg-no-repeat relative z-0 overflow-hidden `} >
             <div className={` w-full h-full bg-[url('/images/hero.png')] bg-no-repeat bg-contain py-10 bg-right relative `}>
                 <div className='container h-full relative z-0 md:px-5 xl:px-0 px-3'>
                     <div className=' w-7/12 h-full flex flex-col justify-center '>
