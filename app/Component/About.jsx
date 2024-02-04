@@ -9,8 +9,8 @@ import shape2 from '../../public/images/5.png'
 const About = () => {
     return (
         <div className='w-full xl:h-[785px] lg:h-full bg-black relative'>
-            <div className={`bg-[url('/images/1.png')] h-full bg-no-repeat bg-cover md:bg-contain   py-10`}>
-                <div className='container h-full flex justify-end items-center px-3 md:px-5 relative '>
+            <div className={`bg-[url('/images/1.png')] h-full bg-no-repeat bg-cover md:bg-contain md:py-10   `}>
+                <div className='container h-full flex justify-end items-center px-3 md:px-5 relative bg-black/70 md:bg-black/0 py-5 md:py-0 '>
                     <div className='md:w-1/2 w-full lg:w-3/6 '>     
                         <h4 className='text-lg text-[#ff4e25] font-bold flex gap-2 items-center uppercase'><Image className=' w-4 h-3' src={dot} width={500} height={500} alt='dot' /><span>About us</span></h4>
                         <h1 className='xl:text-[48px] lg:text-[30px] uppercase font-bold mt-3' >we are pushing the limit of your core strength</h1>
