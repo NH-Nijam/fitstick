@@ -4,6 +4,10 @@ import About from './Component/About';
 import Patnars from './Component/Partners';
 import Services from './Component/Services';
 import Calculate from './Component/Calculate';
+import Slide from './Component/Slide';
+import Schedule from './Component/Shedule';
+import Trainer from './Component/Trainer';
+
 
 
 const HomePage = () => {
@@ -14,6 +18,9 @@ const HomePage = () => {
         <Patnars/>
         <Services/>
         <Calculate/>
+        <Slide/>
+        {/* <Schedule/> */}
+        <Trainer/>
     </div>
   );
 };

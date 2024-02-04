@@ -55,7 +55,8 @@ const Header = () => {
             open={open}
             className="!bg-gray-900 "
           >
-            <div className="w-full  flex justify-end">
+            <div className="w-full flex justify-between h-20 border-b border-gray-600">
+              <button className=" bg-[#ff4e25] h-[35px] px-4 text-lg w-fit text-white font-semibold rounded">Contact</button>
               <IoMdClose onClick={onClose} className="text-2xl text-white " />
             </div>
             <div className="text-white mt-10 flex flex-col text-xl  gap-8">

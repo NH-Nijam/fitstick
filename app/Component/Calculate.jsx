@@ -12,7 +12,7 @@ const Calculate = () => {
                             <div className='md:w-1/2 w-full lg:w-3/6 '>
                                 <h1 className='xl:text-[48px] lg:text-[30px] uppercase font-bold mt-3 w-fit mb-2' >calculate your
                                     BMI now!</h1>
-                                <h4 className='text-base text-gray-200 flex gap-2 mb-10 md:mb-0 '><Image className=' w-4 h-3 mt-2' src={dot} width={500} height={500} alt='dot' /><span>Welcome to this comprehensive guide on the Apple Vision Pro features, where we delve deep into the innovative advancements of thi Welcome to this</span></h4>
+                                <h4 className='text-base text-gray-300 flex gap-2 mb-10 md:mb-0 '><Image className=' w-4 h-3 mt-2' src={dot} width={500} height={500} alt='dot' /><span>Welcome to this comprehensive guide on the Apple Vision Pro features, where we delve deep into the innovative advancements of thi Welcome to this</span></h4>
                                 <div className='my-10 grid md:grid-cols-2 gap-6'>
                                     <div className='flex flex-col'>
                                         <label htmlFor="cm" className='text-[#ff4e25] text-base uppercase '>height / cm</label>
