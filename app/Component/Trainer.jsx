@@ -10,6 +10,7 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import david from '../../public/images/DavidBranddn.png'
 import da from '../../public/images/Da.png'
+
 const Trainer = () => {
     const CardData = [
         { id: 1, name: 'Malaka', image: david },
@@ -22,12 +23,11 @@ const Trainer = () => {
     return (
         <div className={` w-full h-[700px] relative py-20 lg:py-0 `}>
             <Image src={expert} width={500} height={500} className='absolute w-full h-full' />
-            <div className='container lg:flex  w-full h-full items-center gap-10  px-3 md:px-5 xl:px-0'>
-                <div className='lg:w-1/2 w-full relative px-3 md:px-5 lg:px-0'>
-                    <h4 className='text-lg text-[#ff4e25] font-bold flex gap-2 items-center uppercase'><Image className=' w-4 h-3' src={dot} width={500} height={500} alt='dot' /><span>trainers</span></h4>
-                    <h1 className='xl:text-[48px] lg:text-[30px] uppercase font-bold mt-3' >meet our expert
-                        fitness trainers.</h1>
-                    <p className='md:text-base text-sm my-5 text-gray-300'>Welcome to this comprehensive guide on the Apple Vision Pro features, where we delve deep into the. </p>
+            <div className='container lg:flex  w-full h-full items-center gap-10  px-3 md:px-5 2xl:px-0'>
+                <div className='lg:w-1/2 w-full relative '>
+                    <h4 className='lg:text-lg md:text-base text-[10px] text-[#ff4e25]  font-bold flex gap-2 uppercase md:items-center '><Image className=' md:w-4 md:h-3 w-2 h-2 mt-[4px] lg:mt-0' src={dot} width={500} height={500} alt='dot' /><span>trainers</span></h4>
+                    <h1 className='xl:text-[48px] md:text-4xl text-base md:leading-snug capitalize font-bold mt-3' >meet our expert fitness trainers.</h1>
+                    <p className='md:text-base my-5 text-[10px]'>Welcome to this comprehensive guide on the Apple Vision Pro features, where we delve deep into the. </p>
                 </div>
                 <div className='w-full lg:w-1/2'>
                     <Swiper

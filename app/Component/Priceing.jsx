@@ -10,7 +10,7 @@ const Priceing = () => {
 
     return (
         <div className='my-28 '>
-            <div className='container px-3 md:px-5 xl:px-0'>
+            <div className='container px-3 md:px-5 2xl:px-0'>
                 <h1 className='xl:text-[48px] lg:text-[30px]  font-bold text-center' >The Right plan on pricing</h1>
                 <h2 className='text-lg flex justify-center gap-5 mt-4'><span className='text-[#ff4e25]'>Monthly</span><span><Switch defaultChecked onChange={onChange} /></span><span>Yearly</span></h2>
                 <div className='mt-5 grid lg:grid-cols-3 md:grid-cols-2 gap-8'>

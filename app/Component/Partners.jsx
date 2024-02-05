@@ -17,7 +17,7 @@ const Patnars = () => {
             <Image src={shape} width={500} height={500} alt='hello' className='absolute top-10 left-0  xl:flex hidden w-[203px]  h-[203px]' />
             <div className='xl:ps-[310px] relative -bottom-4'>
                 <Image src={shape1} width={500} height={500} alt='hello' className='md:w-[383px] md:h-[90px] w-[200px] h-[30px]' />
-                <div className='w-full lg:h-[179px] md:h-[100px] h-[50px] bg-[#ff4e25] md:px-10 px-3'>
+                <div className='w-full lg:h-[179px] md:h-[80px] h-[60px] bg-[#ff4e25] md:px-10 px-3'>
                     <Marquee pauseOnHover={true} className='h-full flex  items-center'>
                         <div className='h-full flex gap-20'>
                             <Image src={card1} width={500} height={500} alt='hello' className='lg:w-[182px] lg:h-[50px] md:h-[30px] md:w-[100px] h-[20px] w-[80px] ' />

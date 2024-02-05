@@ -17,7 +17,7 @@ const Blog = () => {
         <div className='w-full py-28'>
             <div className='container'>
                 <div className='md:w-4/6 mx-auto flex flex-col items-center text-center'>
-                    <h4 className='text-lg text-[#ff4e25] font-bold flex gap-2 items-center uppercase'><Image className=' w-4 h-3' src={dot} width={500} height={500} alt='dot' /><span>Blog</span></h4>
+                <h4 className='lg:text-lg md:text-base text-[10px] text-[#ff4e25]  font-bold flex gap-2 uppercase md:items-center '><Image className=' md:w-4 md:h-3 w-2 h-2 mt-[4px] lg:mt-0' src={dot} width={500} height={500} alt='dot' /><span>blog</span></h4>
                     <h1 className='xl:text-[48px] lg:text-[30px]  font-bold mt-1' >Latest Blog Posts</h1>
                 </div>
                 <div className='mt-12  grid lg:grid-cols-3 md:grid-cols-2 gap-8 px-3 md:px-5'>

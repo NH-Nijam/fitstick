@@ -26,7 +26,7 @@ const Header = () => {
 
   return (
     <nav className="sticky top-0 z-10">
-      <div className="container px-3 md:px-5 xl:px-0 lg:h-[121px] h-20 flex justify-between items-center">
+      <div className="container px-3 md:px-5 2xl:px-0 lg:h-[121px] h-20 flex justify-between items-center">
         <Link href="#">
           <Image
             src={Logo}

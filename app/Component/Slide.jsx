@@ -61,7 +61,7 @@ const Slide = () => {
 
     ]
     return (
-        <div className='w-full h-[115px] bg-[#ff4e25] py-3 relative'>
+        <div className='w-full lg:h-[115px] md:h-[80px] h-[60px]  bg-[#ff4e25] lg:py-3 py-1 md:py-2 relative'>
             <Swiper
                 slidesPerView={1}
                 spaceBetween={10}

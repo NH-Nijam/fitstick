@@ -9,7 +9,7 @@ const BlogCard = ({card}) => {
                 <Image src={img} width={500} height={500} alt='this is a blog image' className='w-full h-full 
             ' />
             </div>
-            <div className='border-b border-r border-s border-gray-600 p-5 flex flex-col gap-10'>
+            <div className='border-b border-r border-s border-gray-600 group-hover:border-none p-5 flex flex-col gap-10'>
                 <div className='flex items-center gap-5'>
                     <div className='w-[50px] h-[2px] bg-[#FF4E25]'></div>
                     <h4 className='text-base text-[#FF4E25]'>{tag}</h4>
