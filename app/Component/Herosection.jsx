@@ -33,7 +33,7 @@ const Herosection = () => {
                     </div>
                 </div>
                 <div className='lg:w-1/2 lg:flex lg:justify-end hidden'>
-                    <Image src={star} width={500} height={500} alt='start' className='w-[168px] h-[168px]' />
+                    <Image src={star} width={500} height={500} alt='start' className='w-[168px] h-[168px] ' />
                 </div>
             </div>
         </div>

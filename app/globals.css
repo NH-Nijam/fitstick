@@ -2,22 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-.container{
-    @apply max-w-[1280px] mx-auto 
+.container {
+    @apply max-w-[1280px] mx-auto
 }
-.vector{
+
+.vector {
     width: 43px;
     height: 43px;
-    animation: animate linear 3s infinite ;
+    animation: animate linear 3s infinite;
 }
-@keyframes animate {
-    0%{
+
+ @keyframes animate {
+    0% {
         transform: rotate(0deg);
     }
-    100%{
+
+    100% {
         transform: rotate(360deg);
     }
+} 
+
+
+.swiper-pagination-bullet {
+    @apply !w-4 !h-4 !bg-orange-600
 }
-.swiper-pagination-bullet{
-    @apply !w-4 !h-4 !bg-orange-600 
-}
+

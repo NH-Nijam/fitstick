@@ -14,7 +14,7 @@ import Marquee from "react-fast-marquee";
 const Patnars = () => {
     return (
         <div className='w-full xl:h-[400px] py-4 bg-[#08101c] relative flex  flex-col justify-end '>
-            <Image src={shape} width={500} height={500} alt='hello' className='absolute top-10 left-0 xl:flex hidden w-[203px]  h-[203px]' />
+            <Image src={shape} width={500} height={500} alt='hello' className='absolute top-10 left-0  xl:flex hidden w-[203px]  h-[203px]' />
             <div className='xl:ps-[310px] relative -bottom-4'>
                 <Image src={shape1} width={500} height={500} alt='hello' className='md:w-[383px] md:h-[90px] w-[200px] h-[30px]' />
                 <div className='w-full lg:h-[179px] md:h-[100px] h-[50px] bg-[#ff4e25] md:px-10 px-3'>

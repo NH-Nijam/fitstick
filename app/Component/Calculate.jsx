@@ -5,13 +5,13 @@ import dot from '../../public/images/3dotred.png'
 
 const Calculate = () => {
     return (
-        <div className={`w-full xl:h-[785px] lg:h-full relative  bg-[url('/images/bg.png')] lg:my-40 `}>
+        <div className={`w-full xl:h-[785px] lg:h-full relative  bg-[url('/images/bg.png')] lg:my-40 px-3 md:px-5 xl:px-0 `}>
             <div className={`bg-[url('/images/calculate.png')] w-full h-full bg-no-repeat relative  `}>
               <div className={`bg-[url('/images/Calimg.png')] h-full bg-no-repeat bg-contain  py-10 relative bg-right  `}>
                         <div className='container h-full flex justify-start items-center px-3 md:px-5 relative bg-black/70  md:bg-black/0  '>
                             <div className='md:w-1/2 w-full lg:w-3/6 '>
-                                <h1 className='xl:text-[48px] lg:text-[30px] uppercase font-bold mt-3 w-fit mb-2' >calculate your
-                                    BMI now!</h1>
+                                <h1 className='xl:text-[48px] lg:text-[30px]  font-bold mt-3 w-fit mb-2' >Calculate Your <br />
+                                    BMI Now!</h1>
                                 <h4 className='text-base text-gray-300 flex gap-2 mb-10 md:mb-0 '><Image className=' w-4 h-3 mt-2' src={dot} width={500} height={500} alt='dot' /><span>Welcome to this comprehensive guide on the Apple Vision Pro features, where we delve deep into the innovative advancements of thi Welcome to this</span></h4>
                                 <div className='my-10 grid md:grid-cols-2 gap-6'>
                                     <div className='flex flex-col'>

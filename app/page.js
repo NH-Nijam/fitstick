@@ -8,6 +8,8 @@ import Slide from './Component/Slide';
 import Schedule from './Component/Shedule';
 import Trainer from './Component/Trainer';
 import Priceing from './Component/Priceing';
+import Review from './Component/Review';
+import Blog from './Component/Blog';
 
 
 
@@ -23,6 +25,9 @@ const HomePage = () => {
         {/* <Schedule/> */}
         <Trainer/>
         <Priceing/>
+        <Slide/>
+        <Review/>
+        <Blog/>
     </div>
   );
 };
