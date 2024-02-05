@@ -24,9 +24,10 @@ const Trainer = () => {
             <Image src={expert} width={500} height={500} className='absolute w-full h-full' />
             <div className='container lg:flex  w-full h-full items-center gap-10  px-3 md:px-5 xl:px-0'>
                 <div className='lg:w-1/2 w-full relative px-3 md:px-5 lg:px-0'>
-                    <h4 className='text-lg text-[#ff4e25] font-bold flex gap-2 items-center uppercase'><Image className=' w-4 h-3' src={dot} width={500} height={500} alt='dot' /><span>About us</span></h4>
-                    <h1 className='xl:text-[48px] lg:text-[30px] uppercase font-bold mt-3' >we are pushing the limit of your core strength</h1>
-                    <p className='md:text-base text-sm my-5'>Welcome to this comprehensive guide on the Apple Vision Pro features, where we delve deep into the innovative advancements of this ground brtechnology. Apple has always been at technological innovation, and the Vision Pro features </p>
+                    <h4 className='text-lg text-[#ff4e25] font-bold flex gap-2 items-center uppercase'><Image className=' w-4 h-3' src={dot} width={500} height={500} alt='dot' /><span>trainers</span></h4>
+                    <h1 className='xl:text-[48px] lg:text-[30px] uppercase font-bold mt-3' >meet our expert
+                        fitness trainers.</h1>
+                    <p className='md:text-base text-sm my-5 text-gray-300'>Welcome to this comprehensive guide on the Apple Vision Pro features, where we delve deep into the. </p>
                 </div>
                 <div className='w-full lg:w-1/2'>
                     <Swiper

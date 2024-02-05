@@ -7,6 +7,7 @@ import Calculate from './Component/Calculate';
 import Slide from './Component/Slide';
 import Schedule from './Component/Shedule';
 import Trainer from './Component/Trainer';
+import Priceing from './Component/Priceing';
 
 
 
@@ -21,6 +22,7 @@ const HomePage = () => {
         <Slide/>
         {/* <Schedule/> */}
         <Trainer/>
+        <Priceing/>
     </div>
   );
 };
