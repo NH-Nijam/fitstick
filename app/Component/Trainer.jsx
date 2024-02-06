@@ -10,6 +10,7 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import david from '../../public/images/DavidBranddn.png'
 import da from '../../public/images/Da.png'
+import shape from '../../public/images/4.png'
 
 const Trainer = () => {
     const CardData = [
@@ -23,7 +24,7 @@ const Trainer = () => {
     return (
         <div className={` w-full h-[700px] relative py-20 lg:py-0 `}>
             <Image src={expert} width={500} height={500} className='absolute w-full h-full' />
-            <div className='container lg:flex  w-full h-full items-center gap-10  px-3 md:px-5 2xl:px-0'>
+            <div className='container lg:flex  w-full h-full  gap-20  px-3 md:px-5 2xl:px-0 lg:py-40 py-20'>
                 <div className='lg:w-1/2 w-full relative '>
                     <h4 className='lg:text-lg md:text-base text-[10px] text-[#ff4e25]  font-bold flex gap-2 uppercase md:items-center '><Image className=' md:w-4 md:h-3 w-2 h-2 mt-[4px] lg:mt-0' src={dot} width={500} height={500} alt='dot' /><span>trainers</span></h4>
                     <h1 className='xl:text-[48px] md:text-4xl text-base md:leading-snug capitalize font-bold mt-3' >meet our expert fitness trainers.</h1>
@@ -58,6 +59,7 @@ const Trainer = () => {
                         }
                     </Swiper>
                 </div>
+                <Image src={shape} width={500} height={500} className='absolute w-[149px] h-[149px] z-10 -rotate-90 lg:bottom-[10%] left-[20%] lg:flex hidden' />
             </div>
         </div>
     );

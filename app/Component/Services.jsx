@@ -5,6 +5,7 @@ import Image from 'next/image';
 import ServiceCard from './ServiceCard';
 import plus from '../../public/images/plus.png'
 
+
 const Services = () => {
     return (
         <div className={`w-full lg:py-32 py-10 bg-[url('/images/marge.png')] bg-no-repeat relative`}>
@@ -21,7 +22,7 @@ const Services = () => {
                     <ServiceCard />
                     <ServiceCard />
                 </div>              
-                <p className='text-[#f0434d] underline text-center mt-10 text-base font-bold w-fit mx-auto hover:text-white duration-500'>View All Service</p>              
+                <p className=' underline text-center mt-10 text-base font-bold w-fit mx-auto hover:text-[#f0434d] duration-500'>View All Service</p>              
             </div>
             <Image src={plus} width={500} height={500} alt='plus icon not show' className='  absolute lg:flex hidden w-[250px] h-[250px] [500px] right-0 z-[5] top-[95%]'/>          
         </div>

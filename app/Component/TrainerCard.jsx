@@ -10,7 +10,7 @@ import insta from '../../public/images/insta.png'
 
 const TrainerCard = ({ name, image }) => {
     return (
-        <div className='border w-full xl:w-[300px] h-[350px] relative mb-20 mx-auto '>
+        <div className=' w-full xl:w-[300px] h-[350px] relative mb-20 mx-auto '>
             <Image src={image} width={500} height={500} className='w-full h-full absolute ' />
             <div className='absolute bg-gray-[#010101]/70 flex items-center gap-5 w-[90%] bottom-[10%] right-0'
                 style={{
