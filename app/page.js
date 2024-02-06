@@ -22,7 +22,7 @@ const HomePage = () => {
         <Services/>
         <Calculate/>
         <Slide/>
-        {/* <Schedule/> */}
+        <Schedule/>
         <Trainer/>
         <Priceing/>
         <Slide/>

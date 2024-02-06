@@ -32,8 +32,8 @@ const Herosection = () => {
                         </div>
                     </div>
                 </div>
-                <div className='md:w-1/2 md:flex md:justify-end hidden'>
-                    <Image src={star} width={500} height={500} alt='start' className='lg:w-[168px] lg:h-[168px] md:w-[100px] md:h-[100px] ' />
+                <div className='md:w-1/2 md:flex md:justify-end hidden relative right-10 '>
+                    <Image src={star} width={500} height={500} alt='start' className='lg:w-[168px] spaning lg:h-[168px] md:w-[100px] md:h-[100px] ' />
                 </div>
             </div>
         </div>

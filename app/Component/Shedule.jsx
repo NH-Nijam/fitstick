@@ -1,9 +1,11 @@
 "use client"
 import React, { useEffect, useState } from 'react';
-import dot from '../../public/images/3dot.png'
+import ellipase10 from '../../public/images/Ellipse 10.png'
+import ellipase from '../../public/images/Ellipse 397.png'
+import star from '../../public/images/5.png'
+import ellipse from '../../public/images/4.png'
 import Image from 'next/image';
-import ellipse from '../../public/images/Ellipse.png'
-
+import dot from '../../public/images/3dot.png'
 
 
 const items =
@@ -434,7 +436,7 @@ const Schedule = () => {
 
     const renderTableCell = (day) => {
         return day !== null ? (
-            <td className='lg:w-[120px] md:w-[120px] w-full lg:p-0 md:p-0 h-[80px] border border-white'>
+            <td className='lg:w-[120px] md:w-[120px] w-full lg:p-0 md:p-0 h-[80px] border-white'>
                 <span className='font-bold'>{day?.title}</span><br />
                 <span className='text-[12px]'>{day?.description}</span>
             </td>
@@ -467,10 +469,13 @@ const Schedule = () => {
     );
 
     return (
-        <div className='border relative'>
-            <div className='mt-[150px] container overflow-scroll '>
-            <h4 className='text-lg text-[#ff4e25] font-bold flex gap-2 items-center uppercase mx-auto w-fit'><Image className=' w-4 h-3' src={dot} width={500} height={500} alt='dot' /><span>About us</span></h4>
-                <h1 className='text-[48px] text-center font-bold mb-[60px] capitalize'>join our class</h1>
+
+        <div className='w-full relative overflow-hidden'>
+            <div className='container px-3 md:px-5 2xl:px-0 md:py-40 py-20 relative z-40'>
+                <div className='md:w-4/6 mx-auto flex flex-col mb-10 md:items-center md:text-center'>
+                    <h4 className='lg:text-lg md:text-base text-[10px] text-[#ff4e25]  font-bold flex gap-2 uppercase md:items-center '><Image className=' md:w-4 md:h-3 w-2 h-2 mt-[4px] lg:mt-0' src={dot} width={500} height={500} alt='dot' /><span>class time</span></h4>
+                    <h1 className='xl:text-[48px] lg:text-[30px]  font-bold mt-1' >join our class</h1>
+                </div>
                 <div className='flex justify-between lg:mx-[47px] mb-[40px] overflow-x-auto'>
                     {events.map((item, i) => (
                         <button key={i} className={`font-bold ${event === item ? 'bg-[#FF4E25] text-white' : 'text-black1'} py-[12px] px-[30px] hover:bg-[#FF4E25]`} onClick={() => { setEvent(item) }}>
@@ -478,10 +483,10 @@ const Schedule = () => {
                         </button>
                     ))}
                 </div>
-                <div className=' '>
-                    <table className='table w-[1440px]'>
+                <div className='lg:overflow-auto md:overflow-auto overflow-scroll w-full'>
+                    <table className='table w-full' style={{ overflow: 'auto' }}>
                         <thead className='bg-[#F0F0F0] text-[#827F7F] h-[70px] '>
-                            <tr className='border border-white '>
+                            <tr className='border border-white'>
                                 <th className='w-[120px]'>#</th>
                                 <th className='w-[120px]'>Monday</th>
                                 <th className='w-[120px]'>Tuesday</th>
@@ -495,8 +500,12 @@ const Schedule = () => {
                         {Tbody}
                     </table>
                 </div>
+               
             </div>
-            <Image src={ellipse} width={500} height={500} alt='' className='absolute top-0 left-[200px]'/>
+            <Image src={ellipase10} width={500} height={500} className='absolute w-full full top-[35%] z-0' />
+            <Image src={ellipase} width={500} height={500} className='absolute w-[50%] h-[50%] left-0 top-[10%]  z-0' />
+            <Image src={star} width={500} height={500} className='absolute w-[254px] h-[254px]  bottom-0 lg:flex hidden 2xl:right-28 right-0  z-0' />
+            <Image src={ellipse} width={500} height={500} className='absolute w-[254px] h-[254px] lg:flex hidden -rotate-90 top-[10%] right-0  z-0' />
         </div>
     );
 };
