@@ -2,8 +2,8 @@
 import React from 'react';
 import { Switch } from 'antd';
 import PriceCard from './PriceCard';
-import star from '../../public/images/5.png'
-import ayto from '../../public/images/aito.png'
+import star from '../../../public/images/5.png'
+import ayto from '../../../public/images/aito.png'
 import Image from 'next/image';
 
 const Priceing = () => {

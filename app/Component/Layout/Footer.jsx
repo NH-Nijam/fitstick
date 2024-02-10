@@ -1,12 +1,12 @@
 'use client'
 import React from 'react';
-import twit from '../../public/images/twitter.png'
-import fb from '../../public/images/facebook.png'
-import ld from '../../public/images/linkedin.png'
-import insta from '../../public/images/insta.png'
+import twit from '../../../public/images/twitter.png'
+import fb from '../../../public/images/facebook.png'
+import ld from '../../../public/images/linkedin.png'
+import insta from '../../../public/images/insta.png'
 import Image from 'next/image';
-import ellipse from '../../public/images/Ellipse 399.png'
-import ellipse1 from '../../public/images/Ellipse 399.png'
+import ellipse from '../../../public/images/Ellipse 399.png'
+import ellipse1 from '../../../public/images/Ellipse 399.png'
 const Footer = () => {
     return (
         <div className='relative '>

@@ -1,15 +1,15 @@
 import React from 'react';
-import Herosection from './Component/Herosection';
-import About from './Component/About';
-import Patnars from './Component/Partners';
-import Services from './Component/Services';
-import Calculate from './Component/Calculate';
-import Slide from './Component/Slide';
-import Schedule from './Component/Shedule';
-import Trainer from './Component/Trainer';
-import Priceing from './Component/Priceing';
-import Review from './Component/Review';
-import Blog from './Component/Blog';
+import Herosection from './Component/Herosection/Herosection';
+import About from './Component/About/About';
+import Partners from './Component/Patners/Partners';
+import Services from './Component/Services/Services';
+import Calculate from './Component/Calculate/Calculate';
+import Slide from './Component/Slide/Slide';
+import Schedule from './Component/Shedule/Shedule';
+import Trainer from './Component/Trainers/Trainer';
+import Priceing from './Component/Priceing/Priceing';
+import Blog from './Component/Blog/Blog';
+import Review from './Component/Reviews/Review';
 
 
 
@@ -18,15 +18,15 @@ const HomePage = () => {
     <div>
         <Herosection/>
         <About/>
-        <Patnars/>
+        <Partners/>
         <Services/>
         <Calculate/>
         <Slide/>
-        <Schedule/>
+        {/* <Schedule/> */}
         <Trainer/>
         <Priceing/>
         <Slide/>
-        <Review/>
+        {/* <Review/> */}
         <Blog/>
     </div>
   );

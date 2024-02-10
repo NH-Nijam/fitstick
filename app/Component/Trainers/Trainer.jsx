@@ -1,16 +1,16 @@
 'use client'
 import React from 'react';
-import dot from '../../public/images/3dot.png'
+import dot from '../../../public/images/3dot.png'
 import Image from 'next/image';
-import expert from '../../public/images/expert.png'
-import TrainerCard from './TrainerCard';
+import expert from '../../../public/images/expert.png'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
-import david from '../../public/images/DavidBranddn.png'
-import da from '../../public/images/Da.png'
-import shape from '../../public/images/4.png'
+import david from '../../../public/images/DavidBranddn.png'
+import da from '../../../public/images/Da.png'
+import shape from '../../../public/images/4.png'
+import TrainerCard from './TrainerCard';
 
 const Trainer = () => {
     const CardData = [

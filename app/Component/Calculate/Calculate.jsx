@@ -1,10 +1,10 @@
 'use client'
 import Image from 'next/image';
 import React from 'react';
-import dot from '../../public/images/3dotred.png'
-import calim from '../../public/images/Calimg.png'
-import calshape from '../../public/images/calshape.png'
-import star from '../../public/images/5.png'
+import dot from '../../../public/images/3dotred.png'
+import calim from '../../../public/images/Calimg.png'
+import calshape from '../../../public/images/calshape.png'
+import star from '../../../public/images/5.png'
 const Calculate = () => {
     return (
         <div className={`w-full relative  bg-[url('/images/bg.png')] lg:my-40  `}>

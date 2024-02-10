@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import dot from '../../public/images/3dot.png'
-import shadow from '../../public/images/3.png'
-import shape1 from '../../public/images/4.png'
-import shape2 from '../../public/images/5.png'
-import aboutImg from '../../public/images/1.png'
+import dot from '../../../public/images/3dot.png'
+import shadow from '../../../public/images/3.png'
+import shape1 from '../../../public/images/4.png'
+import shape2 from '../../../public/images/5.png'
+import aboutImg from '../../../public/images/1.png'
 
 const About = () => {
     return (

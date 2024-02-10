@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image';
 import React from 'react';
-import picon from '../../public/images/picon.png'
+import picon from '../../../public/images/picon.png'
 const PriceCard = ({name, price}) => {
     return (
         <div className='group  border border-gray-600 duration-500 hover:border-[#ff4e25] md:p-10 p-6 '>

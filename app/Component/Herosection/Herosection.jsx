@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
-import dot from '../../public/images/3dot.png'
-import star from '../../public/images/bgstart.png'
-import hero from '../../public/images/hero.png'
+import dot from '../../../public/images/3dot.png'
+import star from '../../../public/images/bgstart.png'
+import hero from '../../../public/images/hero.png'
 
 const Herosection = () => {
     return (
@@ -23,13 +23,13 @@ const Herosection = () => {
                             <h2 className='font-bold lg:text-[32px] md:text-base text-xs'>1200+</h2>
                         </div>
                         <div className='flex flex-col justify-center items-center gap-2'>
-                            <h4 className='lg:text-lg md:text-base text-[10px] font-bold flex md:gap-2 gap-1 items-center'><Image className=' w-4 h-3' src={dot} width={500} height={500} alt='dot' /><span>Expert trainer</span></h4>
+                            <h4 className='lg:text-lg md:text-base text-[10px] font-bold flex md:gap-2 gap-1 items-center'><Image className=' md:w-4 md:h-3 w-2 h-2' src={dot} width={500} height={500} alt='dot' /><span>Expert trainer</span></h4>
                             <h2 className='font-bold lg:text-[32px] md:text-base text-xs'>1200+</h2>
                         </div>
                         <div className='flex flex-col justify-center items-center gap-2'>
-                            <h4 className='lg:text-lg md:text-base text-[10px] font-bold flex md:gap-2 gap-1 items-center'><Image className=' w-4 h-3' src={dot} width={500} height={500} alt='dot' /><span>Expert trainer</span></h4>
+                            <h4 className='lg:text-lg md:text-base text-[10px] font-bold flex md:gap-2 gap-1 items-center'><Image className=' md:w-4 md:h-3 w-2 h-2' src={dot} width={500} height={500} alt='dot' /><span>Expert trainer</span></h4>
                             <h2 className='font-bold lg:text-[32px] md:text-base text-xs'>1200+</h2>
-                        </div>
+                        </div>                      
                     </div>
                 </div>
                 <div className='md:w-1/2 md:flex md:justify-end hidden relative right-10 '>

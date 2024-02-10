@@ -1,8 +1,8 @@
 'use client'
 import Image from 'next/image';
 import React from 'react';
-import serviceCardImg from '../../public/images/Rectangle.png'
-import dot from '../../public/images/3dotred.png'
+import serviceCardImg from '../../../public/images/Rectangle.png'
+import dot from '../../../public/images/3dotred.png'
 const ServiceCard = () => {
     return (
         <div className='w-full border group hover:border-[#ff4e25] duration-500 relative'>

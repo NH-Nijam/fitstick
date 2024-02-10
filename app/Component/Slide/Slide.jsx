@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 import { Autoplay } from 'swiper/modules';
 // swiper send
 import SlideCard from './SlideCard';
-import vector from '../../public/images/Vector.png'
+import vector from '../../../public/images/Vector.png'
 const Slide = () => {
     const slidersName = [
         {

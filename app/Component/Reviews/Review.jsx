@@ -1,18 +1,18 @@
 'use client'
 import React, { useState } from 'react';
-import dot from '../../public/images/3dot.png'
+import dot from '../../../public/images/3dot.png'
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
-import david from '../../public/images/DavidBranddn.png'
-import david2 from '../../public/images/Da.png'
-import shape from '../../public/images/4.png'
-import plus from '../../public/images/plus.png'
-import ayto from '../../public/images/aito.png'
-import ellipse from '../../public/images/Ellipse 399.png'
+import david from '../../../public/images/DavidBranddn.png'
+import david2 from '../../../public/images/Da.png'
+import shape from '../../../public/images/4.png'
+import plus from '../../../public/images/plus.png'
+import ayto from '../../../public/images/aito.png'
+import ellipse from '../../../public/images/Ellipse 399.png'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 

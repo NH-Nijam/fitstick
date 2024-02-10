@@ -1,9 +1,10 @@
 'use client'
 import React from 'react';
-import dot from '../../public/images/3dot.png'
+import dot from '../../../public/images/3dot.png'
 import Image from 'next/image';
+
+import plus from '../../../public/images/plus.png'
 import ServiceCard from './ServiceCard';
-import plus from '../../public/images/plus.png'
 
 
 const Services = () => {

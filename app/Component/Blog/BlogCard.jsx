@@ -1,5 +1,5 @@
 import React from 'react';
-import dot from '../../public/images/3dot.png'
+import dot from '../../../public/images/3dot.png'
 import Image from 'next/image';
 const BlogCard = ({card}) => {
     const {tag,name,img}=card;

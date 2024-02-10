@@ -1,15 +1,17 @@
 'use client'
 import React from 'react';
-import BlogCard from './BlogCard';
-import card1 from '../../public/images/gm1.png'
-import card2 from '../../public/images/gm2.png'
-import card3 from '../../public/images/gm3.png'
-import dot from '../../public/images/3dot.png'
+
+import card1 from '../../../public/images/gm1.png'
+import card2 from '../../../public/images/gm2.png'
+import card3 from '../../../public/images/gm3.png'
+import dot from '../../../public/images/3dot.png'
 import Image from 'next/image';
-import ellipas from '../../public/images/Ellipse 399 (1).png'
-import ellipas1 from '../../public/images/Ellipse 400.png'
-import plus from '../../public/images/plus.png'
-import ayto from '../../public/images/aito.png'
+import ellipas from '../../../public/images/Ellipse 399 (1).png'
+import ellipas1 from '../../../public/images/Ellipse 400.png'
+import plus from '../../../public/images/plus.png'
+import ayto from '../../../public/images/aito.png'
+import BlogCard from './BlogCard';
+
 
 
 const Blog = () => {

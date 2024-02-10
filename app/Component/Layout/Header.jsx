@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import Logo from "../../public/images/Frame 117.png";
+import Logo from "../../../public/images/Frame 117.png";
 // icons star 
 import { FaBars } from "react-icons/fa";
 import { Drawer } from 'antd';

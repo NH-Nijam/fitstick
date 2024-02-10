@@ -1,0 +1,353 @@
+[
+    {
+        "id": 1,
+        "time": "9.00 am",
+        "Monday":null,
+        "Tuesday": null,
+        "Wednesday": {
+            "title": "open gym",
+            "description": "open gym"
+        },
+        "Thursday": null,
+        "Friday": null,
+        "Saturday": null,
+        "Sunday": {
+            "title": "open gym",
+            "description": "open gym"
+        },
+        "Category":"Open Gym"
+
+              
+    },
+    {
+        "id": 2,
+        "time": "9.00 am",
+        "Monday":null,
+        "Tuesday": null,
+        "Wednesday": {
+            "title": "open gym",
+            "description": "open gym"
+        },
+        "Thursday": null,
+        "Friday": null,
+        "Saturday": null,
+        "Sunday": {
+            "title": "open gym",
+            "description": "open gym"
+        },
+        "Category":"Open Gym"
+        
+        
+    },
+    {
+        "id": 3,
+        "time": "9.00 am",
+        "Monday":null,
+        "Tuesday": null,
+        "Wednesday": {
+            "title": "open gym",
+            "description": "open gym"
+        },
+        "Thursday": null,
+        "Friday": null,
+        "Saturday": null,
+        "Sunday": {
+            "title": "open gym",
+            "description": "open gym"
+        },
+        "Category":"Open Gym"
+        
+        
+    },
+    {
+        "id": 4,
+        "time": "9.00 am",
+        "Monday":null,
+        "Tuesday": null,
+        "Wednesday": {
+            "title": "open gym",
+            "description": "open gym"
+        },
+        "Thursday": null,
+        "Friday": null,
+        "Saturday": null,
+        "Sunday": {
+            "title": "open gym",
+            "description": "open gym"
+        },
+        "Category":"Open Gym"
+        
+        
+    },
+    {
+        "id": 5,
+        "time": "9.00 am",
+        "Monday":null,
+        "Tuesday": null,
+        "Wednesday": {
+            "title": "open gym",
+            "description": "open gym"
+        },
+        "Thursday": null,
+        "Friday": null,
+        "Saturday": null,
+        "Sunday": {
+            "title": "open gym",
+            "description": "open gym"
+        },
+        "Category":"Open Gym"
+        
+        
+    },
+    {
+        "id": 6,
+        "time": "9.00 am",
+        "Monday":null,
+        "Tuesday": null,
+        "Wednesday": {
+            "title": "open gym",
+            "description": "open gym"
+        },
+        "Thursday": null,
+        "Friday": null,
+        "Saturday": null,
+        "Sunday": {
+            "title": "open gym",
+            "description": "open gym"
+        },
+        "Category":"Open Gym"
+        
+        
+    },
+    
+    {
+        "id": 7,
+        "time": "10.00 am",
+        "Monday":null,
+        "Tuesday": null,
+        "Wednesday": {
+            "title": "Total Body",
+            "description": "workout"
+        },
+        "Thursday": null,
+        "Friday": null,
+        "Saturday": null,
+        "Sunday": {
+            "title": "Total Body",
+            "description": "workout"
+        },
+        "Category":"total body"
+        
+    },
+    {
+        "id": 8,
+        "time": "10.00 am",
+        "Monday":null,
+        "Tuesday": null,
+        "Wednesday": {
+            "title": "Total Body",
+            "description": "workout"
+        },
+        "Thursday": null,
+        "Friday": null,
+        "Saturday": null,
+        "Sunday": {
+            "title": "Total Body",
+            "description": "workout"
+        },
+        "Category":"total body"
+        
+    },
+    {
+        "id": 9,
+        "time": "10.00 am",
+        "Monday":null,
+        "Tuesday": null,
+        "Wednesday": {
+            "title": "Total Body",
+            "description": "workout"
+        },
+        "Thursday": null,
+        "Friday": null,
+        "Saturday": null,
+        "Sunday": {
+            "title": "Total Body",
+            "description": "workout"
+        },
+        "Category":"total body"
+        
+    },
+    {
+        "id": 10,
+        "time": "10.00 am",
+        "Monday":null,
+        "Tuesday": null,
+        "Wednesday": {
+            "title": "Total Body",
+            "description": "workout"
+        },
+        "Thursday": null,
+        "Friday": null,
+        "Saturday": null,
+        "Sunday": {
+            "title": "Total Body",
+            "description": "workout"
+        },
+        "Category":"total body"
+        
+    },
+    {
+        "id": 11,
+        "time": "10.00 am",
+        "Monday":null,
+        "Tuesday": null,
+        "Wednesday": {
+            "title": "Total Body",
+            "description": "workout"
+        },
+        "Thursday": null,
+        "Friday": null,
+        "Saturday": null,
+        "Sunday": {
+            "title": "Total Body",
+            "description": "workout"
+        },
+        "Category":"total body"
+        
+    },
+    {
+        "id": 12,
+        "time": "10.00 am",
+        "Monday":null,
+        "Tuesday": null,
+        "Wednesday": {
+            "title": "Total Body",
+            "description": "workout"
+        },
+        "Thursday": null,
+        "Friday": null,
+        "Saturday": null,
+        "Sunday": {
+            "title": "Total Body",
+            "description": "workout"
+        },
+        "Category":"total body"
+        
+    },
+    
+    {
+        "id": 13,
+        "time": "11.00 am",
+        "Monday":null,
+        "Tuesday": null,
+        "Wednesday": {
+            "title": "Krunch & Kore",
+            "description": "krunch & kore"
+        },
+        "Thursday": null,
+        "Friday": null,
+        "Saturday": null,
+        "Sunday": {
+            "title": "Krunch & Kore",
+            "description": "krunch & kore"
+        },
+        "Category":"krunch & kore"
+        
+    },
+    {
+        "id": 14,
+        "time": "11.00 am",
+        "Monday":null,
+        "Tuesday": null,
+        "Wednesday": {
+            "title": "Krunch & Kore",
+            "description": "krunch & kore"
+        },
+        "Thursday": null,
+        "Friday": null,
+        "Saturday": null,
+        "Sunday": {
+            "title": "Krunch & Kore",
+            "description": "krunch & kore"
+        },
+        "Category":"krunch & kore"
+        
+    },
+    {
+        "id": 15,
+        "time": "11.00 am",
+        "Monday":null,
+        "Tuesday": null,
+        "Wednesday": {
+            "title": "Krunch & Kore",
+            "description": "krunch & kore"
+        },
+        "Thursday": null,
+        "Friday": null,
+        "Saturday": null,
+        "Sunday": {
+            "title": "Krunch & Kore",
+            "description": "krunch & kore"
+        },
+        "Category":"krunch & kore"
+        
+    },
+    {
+        "id": 16,
+        "time": "11.00 am",
+        "Wednesday":null,
+        "Monday": {
+            "title": "Krunch & Kore",
+            "description": "krunch & kore"
+        },
+        "Tuesday": null,      
+        "Thursday": null,
+        "Friday": null,
+        "Saturday": null,
+        "Sunday": {
+            "title": "Krunch & Kore",
+            "description": "krunch & kore"
+        },
+        "Category":"krunch & kore"
+        
+    },
+    {
+        "id": 17,
+        "time": "11.00 am",
+        "Monday":"hello",
+        "Tuesday": null,
+        "Wednesday": {
+            "title": "Krunch & Kore",
+            "description": "krunch & kore"
+        },
+        "Thursday": null,
+        "Sunday": {
+            "title": "Krunch & Kore",
+            "description": "krunch & kore"
+        },
+        "Friday": null,
+        "Saturday": null,
+        "Category":"krunch & kore"
+        
+    },
+    {
+        "id": 18,
+        "time": "11.00 am",
+        "Monday":null,
+        "Tuesday": null,
+        "Wednesday": {
+            "title": "Krunch & Kore",
+            "description": "krunch & kore"
+        },
+        "Thursday": null,
+        "Friday": null,
+        "Saturday": null,
+        "Sunday": {
+            "title": "Krunch & Kore",
+            "description": "krunch & kore"
+        },
+        "Category":"krunch & kore"
+        
+    }
+    
+]

@@ -1,11 +1,11 @@
 'use client'
 import Image from 'next/image';
 import React from 'react';
-import shape from '../../public/images/22.png'
-import twit from '../../public/images/twitter.png'
-import fb from '../../public/images/facebook.png'
-import ld from '../../public/images/linkedin.png'
-import insta from '../../public/images/insta.png'
+import shape from '../../../public/images/22.png'
+import twit from '../../../public/images/twitter.png'
+import fb from '../../../public/images/facebook.png'
+import ld from '../../../public/images/linkedin.png'
+import insta from '../../../public/images/insta.png'
 
 
 const TrainerCard = ({ name, image }) => {
